@@ -23,8 +23,8 @@ public class App {
         torneo.cargarPartido("Team F", "Team E", LocalDate.of(2023, 11, 12), 1, 2);
         torneo.cargarPartido("Team H", "Team G", LocalDate.of(2023, 11, 12), 0, 0);
         // Punto b.4
-        torneo.mostrarPartidosFecha(LocalDate.of(2023,11,12));
+        //torneo.mostrarPartidosFecha(LocalDate.of(2023,11,12));
         // Punto b.5
-        //torneo.mostrarTabla();
+        torneo.mostrarTabla();
     }
 }
